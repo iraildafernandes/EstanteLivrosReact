@@ -1,0 +1,46 @@
+main, section {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 60px;
+}
+
+.conteudos {
+  width: 100%;
+  display: flex;
+  gap: 90px;
+  padding: 20px 60px;
+  justify-content: center;
+  margin-top: 40px;
+}
+
+.links {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.conteudo-livros {
+  display: flex;
+  flex-wrap: wrap;
+
+  width: 600px;
+}
+
+.avaliacao{
+  display: flex;
+  padding: 20px;
+}
+
+
+.avaliacao-texto p {
+  font-size: 14px;
+}
+
+
+.avaliacao-texto h3 {
+  color: #ea4c89;
+  font-size: 14px;
+}
+

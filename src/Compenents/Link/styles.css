@@ -1,0 +1,17 @@
+a {
+ display: flex;
+ justify-content: center;
+ align-items: center;
+ gap: 10px;
+ text-decoration: none;
+ padding: 15px; 
+ border: 1px solid #ea4c89;
+ background-color: #ea4c89;
+ color: #ffffff;
+ /* border-radius: 6px; */
+ width: 150px;
+}
+
+a:hover{
+  opacity: .80;
+}

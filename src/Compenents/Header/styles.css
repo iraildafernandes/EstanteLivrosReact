@@ -1,0 +1,40 @@
+.container {
+  display: flex;
+  justify-content: center;
+  padding: 20px 0;
+  gap: 60px;
+  border-bottom: 1px solid #ea4c89;
+  color: #ea4c89;
+}
+
+.info-user {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.info-user img {
+  border-radius: 50%;
+  height: 80px;
+}
+
+.info-user h1 {
+  font-size: 32px;
+}
+
+.info-livros-user {
+  display: flex;
+  gap: 60px;
+}
+
+.info-livros {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.qtd-livros {
+  font-size: 32px;
+  font-weight: 700;
+}
