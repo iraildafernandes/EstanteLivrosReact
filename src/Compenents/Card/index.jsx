@@ -1,4 +1,3 @@
-import { useState } from "react";
 import "./styles.css";
 
 import { AiFillStar, AiOutlineStar } from "react-icons/ai";

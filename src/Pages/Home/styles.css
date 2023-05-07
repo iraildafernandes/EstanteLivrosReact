@@ -15,7 +15,7 @@ main, section {
   margin-top: 40px;
 }
 
-.links {
+.menu-links {
   display: flex;
   flex-direction: column;
   justify-content: space-between;

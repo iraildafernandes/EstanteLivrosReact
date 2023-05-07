@@ -1,6 +1,9 @@
+import { useState } from "react";
+
 import "./styles.css";
 
-function Header() {
+function Header(props) {
+
   return (
     <header className="container">
       <div className="info-user">
@@ -13,12 +16,12 @@ function Header() {
 
       <div className="info-livros-user">
         <div className="info-livros">
-          <span className="qtd-livros">130</span>
+          <span className="qtd-livros">{props.livrosLidos}</span>
           <span>Livros lidos</span>
         </div>
 
         <div className="info-livros">
-          <span className="qtd-livros">60</span>
+          <span className="qtd-livros">{props.livrosParaLer}</span>
           <span>Livros que vou ler</span>
         </div>
       </div>
