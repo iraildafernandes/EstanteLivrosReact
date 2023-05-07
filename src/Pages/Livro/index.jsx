@@ -1,7 +1,7 @@
 import { useState } from "react";
 import { Link } from "react-router-dom";
 import { useParams } from "react-router-dom";
-import Header from "../../Compenents/Header";
+import Header from "../../Components/Header";
 
 import "./styles.css";
 

@@ -53,9 +53,6 @@
 }
 
 .area-acao button{
-  justify-content: center;
-  align-items: center;
-  text-decoration: none;
   padding: 15px; 
   border: 1px solid #ea4c89;
   background-color: #ea4c89;

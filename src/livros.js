@@ -15,70 +15,90 @@ const livros = [
     imagem: livro1,
     nome: "Storytelling com Dados",
     classificacao: 5,
-    descricao: "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Non quae delectus nisi molestias quasi magni totam suscipit, et animi laborum recusandae odit quod est ut vitae libero consequuntur itaque obcaecati."
+    descricao: "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Non quae delectus nisi molestias quasi magni totam suscipit, et animi laborum recusandae odit quod est ut vitae libero consequuntur itaque obcaecati.",
+    favorito: true,
+    desejado: false,
   },
   {
     id: 2,
     imagem: livro2,
     nome: "Confiança Criativa",
     classificacao: 5,
-    descricao: "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Non quae delectus nisi molestias quasi magni totam suscipit, et animi laborum recusandae odit quod est ut vitae libero consequuntur itaque obcaecati."
+    descricao: "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Non quae delectus nisi molestias quasi magni totam suscipit, et animi laborum recusandae odit quod est ut vitae libero consequuntur itaque obcaecati.",
+    favorito: true,
+    desejado: false,
   },
   {
     id: 3,
     imagem: livro3,
     nome: "A Coragem de ser Imperfeito",
     classificacao: 5,
-    descricao: "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Non quae delectus nisi molestias quasi magni totam suscipit, et animi laborum recusandae odit quod est ut vitae libero consequuntur itaque obcaecati."
+    descricao: "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Non quae delectus nisi molestias quasi magni totam suscipit, et animi laborum recusandae odit quod est ut vitae libero consequuntur itaque obcaecati.",
+    favorito: true,
+    desejado: false,
   },
   {
     id: 4,
     imagem: livro4,
     nome: "Uma pergunta Bonita",
     classificacao: 5,
-    descricao: "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Non quae delectus nisi molestias quasi magni totam suscipit, et animi laborum recusandae odit quod est ut vitae libero consequuntur itaque obcaecati."
+    descricao: "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Non quae delectus nisi molestias quasi magni totam suscipit, et animi laborum recusandae odit quod est ut vitae libero consequuntur itaque obcaecati.",
+    favorito: false,
+    desejado: true,
   },
   {
     id: 5,
     imagem: livro5,
     nome: "Muito Além de Sorte",
     classificacao: 5,
-    descricao: "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Non quae delectus nisi molestias quasi magni totam suscipit, et animi laborum recusandae odit quod est ut vitae libero consequuntur itaque obcaecati."
+    descricao: "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Non quae delectus nisi molestias quasi magni totam suscipit, et animi laborum recusandae odit quod est ut vitae libero consequuntur itaque obcaecati.",
+    favorito: false,
+    desejado: true,
   },
   {
     id: 6,
     imagem: livro6,
     nome: "Estrutura de dados com JavaScript",
     classificacao: 5,
-    descricao: "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Non quae delectus nisi molestias quasi magni totam suscipit, et animi laborum recusandae odit quod est ut vitae libero consequuntur itaque obcaecati."
+    descricao: "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Non quae delectus nisi molestias quasi magni totam suscipit, et animi laborum recusandae odit quod est ut vitae libero consequuntur itaque obcaecati.",
+    favorito: false,
+    desejado: true,
   },
   {
     id: 7,
     imagem: livro7,
     nome: "A Prática",
     classificacao: 4,
-    descricao: "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Non quae delectus nisi molestias quasi magni totam suscipit, et animi laborum recusandae odit quod est ut vitae libero consequuntur itaque obcaecati."
+    descricao: "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Non quae delectus nisi molestias quasi magni totam suscipit, et animi laborum recusandae odit quod est ut vitae libero consequuntur itaque obcaecati.",
+    favorito: true,
+    desejado: false,
   },
   {
     id: 8,
     imagem: livro8,
     nome: "O Poder dos Momentos",
     classificacao: 4,
-    descricao: "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Non quae delectus nisi molestias quasi magni totam suscipit, et animi laborum recusandae odit quod est ut vitae libero consequuntur itaque obcaecati."
+    descricao: "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Non quae delectus nisi molestias quasi magni totam suscipit, et animi laborum recusandae odit quod est ut vitae libero consequuntur itaque obcaecati.",
+    favorito: false,
+    desejado: false,
   },
   {
     id: 9,
     imagem: livro9,
     nome: "Algoritmos para Viver",
     classificacao: 4,
-    descricao: "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Non quae delectus nisi molestias quasi magni totam suscipit, et animi laborum recusandae odit quod est ut vitae libero consequuntur itaque obcaecati."
+    descricao: "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Non quae delectus nisi molestias quasi magni totam suscipit, et animi laborum recusandae odit quod est ut vitae libero consequuntur itaque obcaecati.",
+    favorito: false,
+    desejado: true,
   },
   {
     id: 10,
     imagem: livro12,
     nome: "Bell Hooks tudo sobre o amor",
     classificacao: 4,
-    descricao: "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Non quae delectus nisi molestias quasi magni totam suscipit, et animi laborum recusandae odit quod est ut vitae libero consequuntur itaque obcaecati."
+    descricao: "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Non quae delectus nisi molestias quasi magni totam suscipit, et animi laborum recusandae odit quod est ut vitae libero consequuntur itaque obcaecati.",
+    favorito: true,
+    desejado: false,
   },
 ];
 

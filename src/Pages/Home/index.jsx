@@ -2,9 +2,9 @@ import { Link } from "react-router-dom";
 
 import "./styles.css";
 
-import Header from "../../Compenents/Header";
-import LinkRota from "../../Compenents/LinkRota";
-import Card from "../../Compenents/Card";
+import Header from "../../Components/Header";
+import LinkRota from "../../Components/LinkRota";
+import Card from "../../Components/Card";
 
 import livro10 from "../../assets/livros/livro10.jpg";
 import livro11 from "../../assets/livros/livro11.jpg";
@@ -12,7 +12,7 @@ import livro11 from "../../assets/livros/livro11.jpg";
 import { AiOutlineHeart, AiOutlineGift, AiOutlineStar } from "react-icons/ai";
 import { SlBubble } from "react-icons/sl";
 
-import livros from "../../livros";
+import livros from "../../livros.js";
 
 
 function Home() {
@@ -46,9 +46,9 @@ function Home() {
           </div>
 
           <div className="conteudo-livros">
-            {livros.map(book => ( 
-              <Link to={`livro/${book.id}`} params={{ parametros: "hello" }}>
-                <Card key={book.id} imagem={book.imagem} nomeLivro={book.nome} />
+            {livros.map(livro => ( 
+              <Link to={`livro/${livro.id}`} key={livro.id}>
+                <Card imagem={livro.imagem} nomeLivro={livro.nome} />
               </Link>
             ))}
           </div>

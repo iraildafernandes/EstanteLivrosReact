@@ -6,7 +6,7 @@ import "./styles.css";
 
 import livros from "../../livros.js";
 
-function Favoritos(){
+function Desejados(){
   return(
     <>
       <Header />
@@ -17,13 +17,13 @@ function Favoritos(){
         <Link to={"/"}>Voltar</Link>
       </div>
 
-      <div className="favoritos">
+      <div className="desejados">
         {livros.map(livro => (
-          livro.favorito ? ( <Card key={livro.id} imagem={livro.imagem} nomeLivro={livro.nome} /> ) : ""
+          livro.desejado ? ( <Card key={livro.id} imagem={livro.imagem} nomeLivro={livro.nome} /> ) : ""
         ))}
       </div>
     </>
   );
 }
 
-export default Favoritos;
+export default Desejados;

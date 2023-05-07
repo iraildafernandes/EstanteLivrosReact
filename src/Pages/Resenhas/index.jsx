@@ -2,12 +2,12 @@ import { Link } from "react-router-dom";
 import Header from "../../Components/Header";
 import "./styles.css";
 
-function Avaliados(){
+function Resenhas(){
   return(
     <>
     <Header />
       <div className="menu-link">
-        <h1 className="titulo">Livros Favoritos</h1>
+        <h1 className="titulo">Resenhas</h1>
 
         <Link to={"/"}>Voltar</Link>
       </div>
@@ -17,4 +17,4 @@ function Avaliados(){
   );
 }
 
-export default Avaliados;
+export default Resenhas;
